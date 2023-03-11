@@ -34,7 +34,7 @@ h1,h2,h3,h4,h5,h6,p {
 /* Header */
 header {
     display: flex;
-    padding: 8px 0;
+    padding: 8px 16px;
     background: #1E293B;
     margin-bottom: 24px;
 }
@@ -65,7 +65,12 @@ header .container {
     margin-left: 8px;
 }
 
-/* Main Header */
+/* Main */
+main{
+    display:flex;
+    padding:0 16px;
+}
+
 .main-header {
     display: flex;
     align-items: center;
@@ -186,13 +191,6 @@ header .container {
 }
 
 /* Media */
-@media screen and (max-width: 1324px) {
-    .main-header, .main-content, header {
-        padding-left: 16px;
-        padding-right: 16px;
-    }
-}
-
 @media screen and (max-width: 776px) {
     .search-box {
         margin-top: 12px;
